@@ -12,7 +12,7 @@ function App() {
         <Container maxWidth="sm">
           <Box textAlign="center">
             <Typography variant="h2" fontWeight="bold">
-              Life in the UK Quiz
+              Open Trivia Quiz App
             </Typography>
             <Routes>
               <Route path="/" element={<Settings />} />
