@@ -21,12 +21,6 @@ const reducer = (state = initialState, action) => {
         ...state,
         question_category: action.payload,
       };
-
-    case CHANGE_CATEGORY:
-      return {
-        ...state,
-        question_category: action.payload,
-      };
     case CHANGE_DIFFICULTY:
       return {
         ...state,

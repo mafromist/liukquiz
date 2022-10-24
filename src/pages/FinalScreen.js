@@ -1,5 +1,5 @@
 
-import { Typography, Button, Box, CircularProgress } from "@mui/material";
+import { Typography, Button, Box } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { handleAmountChange, handleScoreChange } from "../redux/actions";
